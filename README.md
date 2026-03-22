@@ -1,99 +1,170 @@
-# FasalSetu 🌾
+# 🌾 FasalSetu
+
 ### AI-Powered Smart Crop Advisory System for Indian Farmers
 
-FasalSetu bridges the gap between modern agricultural technology and small-scale farmers in India. It provides real-time crop advice, disease detection, weather alerts, and soil analysis — all in regional languages with voice support.
+**FasalSetu** is an AI-driven agricultural assistant designed to empower small and medium-scale farmers across India. It bridges the gap between modern agri-tech and grassroots farming by delivering **real-time, personalized, and localized insights** — accessible through text, voice, and regional languages.
 
 ---
 
-## Features
+## 🚀 Why FasalSetu?
 
-- 🤖 AI Chatbot — Conversational farming advice powered by Google Gemini
-- 📸 Disease Detection — Upload a photo of your crop and get instant diagnosis
-- 🌤️ Weather Alerts — Real-time weather and 7-day forecast for your location
-- 🌱 Crop Suggestions — AI-recommended crops based on your soil and season
-- 📅 Calendar Alerts — Smart reminders for sowing, irrigation, and harvesting
-- 🎤 Voice Support — Speak and listen in your regional language
-- 🌍 Multi-language — Hindi, Marathi, Tamil, Telugu, Kannada, Hinglish, English
-- 🗺️ Location-aware — Auto-detects your location for hyper-local advice
+Indian farmers often lack access to timely, reliable, and understandable agricultural guidance. FasalSetu solves this by combining:
 
----
+* AI intelligence
+* Localized weather & soil data
+* Voice-first interaction
 
-## Tech Stack
-
-| Layer | Technology |
-|---|---|
-| Frontend | React 18 + TypeScript + Vite |
-| UI | Tailwind CSS + shadcn/ui + Radix UI |
-| Backend | Supabase (PostgreSQL + Auth + Storage) |
-| AI | Google Gemini AI (text + vision) |
-| Voice | Web Speech API + Google Chirp 3 TTS |
-| Weather | WeatherAPI.com |
-| Soil | OpenEPI Soil API |
+➡️ Result: **Smarter farming decisions, higher yields, and reduced risk**
 
 ---
 
-## Getting Started
+## ✨ Key Features
 
-```bash
-# 1. Clone the repo
-git clone https://github.com/riddhimachat18/FasalSetu.git
-cd FasalSetu
+### 🤖 AI Chatbot
 
-# 2. Install dependencies
-npm install
+Conversational assistant powered by **Google Gemini** for:
 
-# 3. Set up environment variables
-cp .env.example .env
-# Fill in your API keys in .env
-
-# 4. Start the dev server
-npm run dev
-```
-
-Open `http://localhost:3000`
+* Crop guidance
+* Fertilizer recommendations
+* Pest management
 
 ---
 
-## Environment Variables
+### 📸 Disease Detection
 
-Copy `.env.example` to `.env` and fill in your keys:
-
-```env
-VITE_SUPABASE_URL=your_supabase_project_url
-VITE_SUPABASE_API_KEY=your_supabase_anon_key
-VITE_GEMINI_API_KEY=your_gemini_api_key
-VITE_WEATHER_API_KEY=your_weatherapi_key
-```
-
-Never commit your `.env` file — it's blocked by `.gitignore`.
+* Upload crop images
+* AI-based diagnosis using computer vision
+* Instant treatment suggestions
 
 ---
 
-## Project Structure
+### 🌤️ Weather Intelligence
+
+* Real-time weather updates
+* 7-day forecast
+* Alerts for extreme conditions
+
+---
+
+### 🌱 Smart Crop Suggestions
+
+* Personalized crop recommendations
+* Based on:
+
+  * Soil type
+  * Season
+  * Location
+
+---
+
+### 📅 Farming Calendar
+
+* Automated reminders for:
+
+  * Sowing
+  * Irrigation
+  * Harvesting
+
+---
+
+### 🎤 Voice Support
+
+* Speak and listen in regional languages
+* Farmer-friendly, low-literacy accessibility
+
+---
+
+### 🌍 Multi-language Support
+
+Supports:
+
+* Hindi
+* Marathi
+* Tamil
+* Telugu
+* Kannada
+* Hinglish
+* English
+
+---
+
+### 🗺️ Location Awareness
+
+* Auto-detects user location
+* Provides hyper-local recommendations
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer     | Technology                             |
+| --------- | -------------------------------------- |
+| Frontend  | React 18 + TypeScript + Vite           |
+| UI        | Tailwind CSS + shadcn/ui + Radix UI    |
+| Backend   | Supabase (PostgreSQL + Auth + Storage) |
+| AI        | Google Gemini (Text + Vision)          |
+| Voice     | Web Speech API + Google Chirp 3 TTS    |
+| Weather   | WeatherAPI.com                         |
+| Soil Data | OpenEPI Soil API                       |
+
+---
+
+## 📁 Project Structure
 
 ```
 src/
-├── components/       # All React UI components
-│   └── ui/           # shadcn/ui base components
-├── services/         # API integrations (weather, AI, voice, disease)
-├── lib/              # Supabase client, DB helpers, location utils
-└── styles/           # Global CSS
+├── components/       # Reusable UI components
+│   └── ui/           # Base components (shadcn/ui)
+├── services/         # API integrations (AI, weather, voice, disease detection)
+├── lib/              # Supabase client, helpers, utilities
+└── styles/           # Global styles
 ```
 
 ---
 
-## Target Users
+## 🎯 Target Users
 
-- Small and medium-scale farmers across India
-- Agricultural extension workers
-- Farming cooperatives and NGOs
-
----
-
-## License
-
-Apache 2.0 — see [LICENSE](LICENSE) for details.
+* 🌾 Small & medium-scale farmers
+* 🧑‍🌾 Agricultural extension workers
+* 🤝 Farming cooperatives
+* 🌱 NGOs in rural development
 
 ---
 
-*Made with ❤️ for Indian Farmers*
+## 🌍 Impact Vision
+
+FasalSetu aims to:
+
+* Improve farmer decision-making
+* Reduce crop losses
+* Increase productivity
+* Enable **AI for Bharat (rural India)**
+
+---
+
+## 🔮 Future Enhancements
+
+* 📡 Offline mode for low connectivity areas
+* 📊 Crop yield analytics dashboard
+* 🛒 Marketplace integration (seeds, fertilizers)
+* 🛰️ Satellite-based crop monitoring
+
+---
+
+## 📜 License
+
+Licensed under **Apache 2.0**
+See the [LICENSE](LICENSE) file for details.
+
+---
+
+## ❤️ Acknowledgement
+
+Built with the vision of empowering Indian farmers through technology.
+
+---
+
+
+**Made with ❤️ for Indian Farmers 🇮🇳**
+
+---
