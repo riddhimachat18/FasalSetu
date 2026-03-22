@@ -1,0 +1,29 @@
+================================================================================
+POTASSIUM PREDICTION - MODEL PERFORMANCE REPORT
+================================================================================
+
+Dataset Statistics:
+  Training samples: 6400
+  Test samples: 1600
+  Features used: 21
+  Target range: 0.0 - 23.0
+
+Model Comparison:
+Model                Test MAE     Test RMSE    Test R²   
+------------------------------------------------------------
+Random Forest        4.20         5.45         0.011     
+XGBoost              4.23         5.45         0.011     
+
+✓ Best Model: Random Forest (lowest Test MAE)
+
+Top 10 Most Important Features (Random Forest):
+  moisture                       0.1054
+  humidity                       0.0950
+  q10_proxy                      0.0844
+  vpd_kpa                        0.0732
+  n_mineralization_index         0.0731
+  smd                            0.0685
+  temperature                    0.0682
+  k_depletion_proxy              0.0679
+  et0_estimate                   0.0679
+  soil_temp_estimate             0.0674

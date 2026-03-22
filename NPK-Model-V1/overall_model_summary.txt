@@ -1,0 +1,17 @@
+================================================================================
+OVERALL MODEL TRAINING SUMMARY
+================================================================================
+
+Nutrient        Best Model           Test MAE     Test R²   
+------------------------------------------------------------
+Nitrogen        XGBoost              9.59         0.020     
+Phosphorous     Random Forest        10.74        0.062     
+Potassium       Random Forest        4.20         0.011     
+
+Dataset: data_core_csv.xlsx
+Total samples: 8,000
+Train/Test split: 80/20
+Feature engineering: Physics-informed agronomic features
+
+Note: These are STATIC SNAPSHOT models.
+For temporal dynamics prediction, time-series sensor data is required.

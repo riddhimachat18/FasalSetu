@@ -1,0 +1,29 @@
+================================================================================
+NITROGEN PREDICTION - MODEL PERFORMANCE REPORT
+================================================================================
+
+Dataset Statistics:
+  Training samples: 6400
+  Test samples: 1600
+  Features used: 21
+  Target range: 0.0 - 46.0
+
+Model Comparison:
+Model                Test MAE     Test RMSE    Test R²   
+------------------------------------------------------------
+Random Forest        9.62         11.64        0.027     
+XGBoost              9.59         11.68        0.020     
+
+✓ Best Model: XGBoost (lowest Test MAE)
+
+Top 10 Most Important Features (XGBoost):
+  moisture                       0.0750
+  soil_temp_estimate             0.0667
+  q10_proxy                      0.0666
+  humidity                       0.0654
+  temperature                    0.0622
+  n_mineralization_index         0.0614
+  smd                            0.0575
+  om_baseline                    0.0569
+  general_stress                 0.0564
+  saturation_excess              0.0552

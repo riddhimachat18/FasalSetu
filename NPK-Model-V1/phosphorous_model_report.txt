@@ -1,0 +1,29 @@
+================================================================================
+PHOSPHOROUS PREDICTION - MODEL PERFORMANCE REPORT
+================================================================================
+
+Dataset Statistics:
+  Training samples: 6400
+  Test samples: 1600
+  Features used: 21
+  Target range: 0.0 - 46.0
+
+Model Comparison:
+Model                Test MAE     Test RMSE    Test R²   
+------------------------------------------------------------
+Random Forest        10.74        12.82        0.062     
+XGBoost              10.74        12.77        0.069     
+
+✓ Best Model: Random Forest (lowest Test MAE)
+
+Top 10 Most Important Features (Random Forest):
+  moisture                       0.1152
+  humidity                       0.0924
+  q10_proxy                      0.0902
+  et0_estimate                   0.0783
+  temperature                    0.0772
+  vpd_kpa                        0.0766
+  soil_temp_estimate             0.0755
+  general_stress                 0.0634
+  n_mineralization_index         0.0609
+  smd                            0.0599
